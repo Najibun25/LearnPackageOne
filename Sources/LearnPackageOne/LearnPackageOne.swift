@@ -1,0 +1,9 @@
+import Starscream
+
+
+public struct LearnPackageOne {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
