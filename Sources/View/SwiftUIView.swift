@@ -14,6 +14,10 @@ public struct SwiftUIView: View {
     public init(){}
     public var body: some View {
         Text("THIS IS THE SWIFTUIVIEW FROM THE PACKAGE")
-        Image("6983839")
+        Image(uiImage: UIImage(named: "6983839", in: .module, with: nil)!)
+            .resizable()
+            .frame(width: 100, height: 150, alignment: .center)
+            .aspectRatio(contentMode: .fit)
+        // Image("6983839")
     }
 }
