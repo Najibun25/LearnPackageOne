@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 
+//ADD TO GIT
 @available(iOS 13.0, *)
 struct SWiftUIView: View {
     var body: some View {
