@@ -10,7 +10,7 @@ import SwiftUI
 
 //ADD TO GIT
 @available(iOS 13.0, *)
-struct SWiftUIView: View {
+struct SwiftUIView: View {
     var body: some View {
         Text("THIS IS THE SWIFTUIVIEW FROM THE PACKAGE")
     }
